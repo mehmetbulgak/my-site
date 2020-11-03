@@ -88,7 +88,6 @@ body {
 .content {
     margin-left: 50px;
     width: 40%;
-    /* height: 500px; */
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -173,6 +172,56 @@ i {
     color: #7E077D;
 }
 
+.social-media{
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-media a{
+    margin: 0;
+    padding: 0;
+}
+
+.social-media a button{
+    background-color: #7E077D;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.book-shop{
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.book-shop a{
+    margin: 0;
+    padding: 0;
+}
+
+.book-shop a button{
+    background-color: #7E077D;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
 .circle {
     position: absolute;
     top: 20px;
@@ -211,7 +260,7 @@ i {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
     body{
         overflow: auto;
     }
